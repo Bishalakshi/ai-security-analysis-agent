@@ -1,0 +1,7 @@
+streamlit>=1.35
+javalang
+numpy
+scikit-learn
+pytest
+# optional (better semantic search):
+# sentence-transformers
