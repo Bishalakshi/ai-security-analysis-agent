@@ -1,0 +1,589 @@
+{
+  "tuning_set": {
+    "agents": {
+      "Code Analysis": {
+        "tp": 44,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security": {
+        "tp": 38,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "types": {
+      "Code Analysis:BARE_EXCEPT": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Code Analysis:BROAD_EXCEPT": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Code Analysis:COMPARE_NONE": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Code Analysis:DEEP_NESTING": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Code Analysis:DUPLICATE_CODE": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Code Analysis:EMPTY_EXCEPT": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Code Analysis:GLOBAL_STATE": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Code Analysis:GOD_CLASS": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Code Analysis:HIGH_COMPLEXITY": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Code Analysis:LONG_FUNCTION": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Code Analysis:LONG_PARAMETER_LIST": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Code Analysis:MAGIC_NUMBER": {
+        "tp": 13,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Code Analysis:MUTABLE_DEFAULT": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Code Analysis:PUBLIC_FIELD": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Code Analysis:STRING_EQUALITY": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Code Analysis:UNREACHABLE_CODE": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Code Analysis:UNUSED_IMPORT": {
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Code Analysis:WILDCARD_IMPORT": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:BROKEN_ACCESS_CONTROL": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:CODE_INJECTION": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:COMMAND_INJECTION": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:DEBUG_ENABLED": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:HARDCODED_SECRET": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:INSECURE_AUTH": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:INSECURE_COOKIE": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:INSECURE_DESERIALIZATION": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:INSECURE_RANDOM": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:OPEN_REDIRECT": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:PATH_TRAVERSAL": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:PERMISSIVE_CORS": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:SENSITIVE_LOGGING": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:SQL_INJECTION": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:SSRF": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:SSTI": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:TLS_VERIFY_DISABLED": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:WEAK_CRYPTO": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:XSS": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:XXE": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "files": {
+      "AdminController.java": {
+        "language": "java",
+        "labelled": 9,
+        "tp": 9,
+        "fp": 0,
+        "fn": 0
+      },
+      "LegacyInventory.java": {
+        "language": "java",
+        "labelled": 17,
+        "tp": 17,
+        "fp": 0,
+        "fn": 0
+      },
+      "SecureAccountRepository.java": {
+        "language": "java",
+        "labelled": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "UserServlet.java": {
+        "language": "java",
+        "labelled": 11,
+        "tp": 11,
+        "fp": 0,
+        "fn": 0
+      },
+      "legacy_report_generator.py": {
+        "language": "python",
+        "labelled": 23,
+        "tp": 23,
+        "fp": 0,
+        "fn": 0
+      },
+      "order_processing.py": {
+        "language": "python",
+        "labelled": 2,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      },
+      "secure_service.py": {
+        "language": "python",
+        "labelled": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "vulnerable_flask_app.py": {
+        "language": "python",
+        "labelled": 20,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "details": {
+      "fp": [],
+      "fn": []
+    }
+  },
+  "held_out_set": {
+    "agents": {
+      "Code Analysis": {
+        "tp": 12,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.923,
+        "recall": 1.0,
+        "f1": 0.96
+      },
+      "Security": {
+        "tp": 12,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "types": {
+      "Code Analysis:BROAD_EXCEPT": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Code Analysis:COMPARE_NONE": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Code Analysis:DEEP_NESTING": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Code Analysis:EMPTY_EXCEPT": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Code Analysis:LONG_PARAMETER_LIST": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Code Analysis:MAGIC_NUMBER": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.667,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      "Code Analysis:MUTABLE_DEFAULT": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Code Analysis:STRING_EQUALITY": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:BROKEN_ACCESS_CONTROL": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:COMMAND_INJECTION": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:CSRF_DISABLED": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:HARDCODED_SECRET": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:INSECURE_DESERIALIZATION": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:INSECURE_RANDOM": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:SQL_INJECTION": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:WEAK_CRYPTO": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Security:XSS": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "files": {
+      "OrderApi.java": {
+        "language": "java",
+        "labelled": 4,
+        "tp": 4,
+        "fp": 1,
+        "fn": 0
+      },
+      "ReportService.java": {
+        "language": "java",
+        "labelled": 5,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0
+      },
+      "batch_jobs.py": {
+        "language": "python",
+        "labelled": 7,
+        "tp": 7,
+        "fp": 0,
+        "fn": 0
+      },
+      "inventory_api.py": {
+        "language": "python",
+        "labelled": 8,
+        "tp": 8,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "details": {
+      "fp": [
+        [
+          "OrderApi.java",
+          59,
+          "MAGIC_NUMBER",
+          "return Long.toString((long) (Math.random() * Long.MAX_VALUE), 36);  // EXPECT: INSECURE_RANDOM"
+        ]
+      ],
+      "fn": []
+    }
+  }
+}
